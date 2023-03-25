@@ -9,7 +9,8 @@
  "field_order": [
   "subject_code",
   "teacher",
-  "subject_name"
+  "subject_name",
+  "time"
  ],
  "fields": [
   {
@@ -28,11 +29,16 @@
    "fieldname": "subject_name",
    "fieldtype": "Data",
    "label": "Subject Name"
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Time",
+   "label": "Time"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-03-23 15:51:58.987328",
+ "modified": "2023-03-25 16:31:14.677360",
  "modified_by": "Administrator",
  "module": "School App",
  "name": "Test Subjects",
